@@ -113,6 +113,7 @@ class Ruckusing_Adapter_MySQL_Base extends Ruckusing_Adapter_Base implements Ruc
                 'mediuminteger'	=> array('name' => "mediumint"),
                 'biginteger'    => array('name' => "bigint"),
                 'float'         => array('name' => "float"),
+                'double'         => array('name' => "double"),
                 'decimal'       => array('name' => "decimal", 'scale' => 0, 'precision' => 10),
                 'datetime'      => array('name' => "datetime"),
                 'timestamp'     => array('name' => "timestamp"),
